@@ -1,0 +1,6 @@
+framework module Pods_WhiteHouse {
+  umbrella header "Pods-WhiteHouse-umbrella.h"
+
+  export *
+  module * { export * }
+}

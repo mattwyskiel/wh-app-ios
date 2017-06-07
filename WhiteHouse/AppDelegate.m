@@ -34,7 +34,7 @@
 #import "LiveViewController.h"
 #import "MainViewController.h"
 #import "SidebarViewController.h"
-#import "Bugsnag.h"
+
 #import "GAI.h"
 #import "AFHTTPRequestOperation.h"
 #import "WHFeedItem.h"
@@ -83,7 +83,7 @@
     
     [application setMinimumBackgroundFetchInterval:UIApplicationBackgroundFetchIntervalMinimum];
     
-    [Bugsnag startBugsnagWithApiKey:@"7cd510d298a81f91d2ebfcfe29cba2de"];
+    // [Bugsnag startBugsnagWithApiKey:@"7cd510d298a81f91d2ebfcfe29cba2de"];
     
     [self setupNavigation];
     

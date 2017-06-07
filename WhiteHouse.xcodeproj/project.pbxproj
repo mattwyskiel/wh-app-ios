@@ -77,6 +77,7 @@
 		49EE8D9819F1458F005F4DA0 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE8D9719F1458F005F4DA0 /* libxml2.dylib */; };
 		49EE8D9A19F14595005F4DA0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 49EE8D9919F14595005F4DA0 /* libz.dylib */; };
 		49F480591A65F4C800F0AEA7 /* WH_logo_3D_CMYK.png in Resources */ = {isa = PBXBuildFile; fileRef = 49F480581A65F4C800F0AEA7 /* WH_logo_3D_CMYK.png */; };
+		9B1EA94337F535BE8DAE784E /* Pods_WhiteHouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B977305B1895D91CF97DECA5 /* Pods_WhiteHouse.framework */; };
 		C347879A1A68076400E0E293 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C34787991A68076400E0E293 /* Default-568h@2x.png */; };
 		C347879F1A68428100E0E293 /* Default-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = C347879B1A68428100E0E293 /* Default-Portrait.png */; };
 		C34787A01A68428100E0E293 /* Default-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = C347879C1A68428100E0E293 /* Default-Landscape.png */; };
@@ -98,8 +99,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2CC9B548365F132DEB7BB131 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		4124134FDE4E7CA9E775BA8F /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		490053B919F83FF10009C4C7 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		490053BA19F83FF10009C4C7 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
 		490053BE19F8790C0009C4C7 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
@@ -112,8 +111,8 @@
 		496889D019E5B14700A6833A /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
 		496889D619E5B6BA00A6833A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		496889D719E5B6BA00A6833A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		496889DC19E5B9F200A6833A /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SidebarViewController.h; path = ../SidebarViewController.h; sourceTree = "<group>"; };
-		496889DD19E5B9F200A6833A /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SidebarViewController.m; path = ../SidebarViewController.m; sourceTree = "<group>"; };
+		496889DC19E5B9F200A6833A /* SidebarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidebarViewController.h; sourceTree = "<group>"; };
+		496889DD19E5B9F200A6833A /* SidebarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidebarViewController.m; sourceTree = "<group>"; };
 		496889E419E6A60F00A6833A /* BriefingRoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BriefingRoomViewController.h; sourceTree = "<group>"; };
 		496889E519E6A60F00A6833A /* BriefingRoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BriefingRoomViewController.m; sourceTree = "<group>"; };
 		496889EA19E6B14100A6833A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
@@ -144,8 +143,8 @@
 		499C9C0119E5ADF60054E900 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		499C9C0219E5ADF60054E900 /* WhiteHouseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhiteHouseTests.m; sourceTree = "<group>"; };
 		49A395E819F550EA001463BA /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
-		49A395EC19F7C095001463BA /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FavoritesViewController.h; path = ../FavoritesViewController.h; sourceTree = "<group>"; };
-		49A395ED19F7C095001463BA /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FavoritesViewController.m; path = ../FavoritesViewController.m; sourceTree = "<group>"; };
+		49A395EC19F7C095001463BA /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		49A395ED19F7C095001463BA /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
 		49ABB89419FFC42900D8EFA8 /* loading.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = loading.png; sourceTree = "<group>"; };
 		49ABB89819FFEC3200D8EFA8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		49ACD5A31A1650A60059A0E1 /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
@@ -223,6 +222,8 @@
 		49EE8D9919F14595005F4DA0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		49F480581A65F4C800F0AEA7 /* WH_logo_3D_CMYK.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WH_logo_3D_CMYK.png; sourceTree = "<group>"; };
 		83A3EEA3C06E8EFCFD8DD25E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		90794CA6651F9314F0A59AE1 /* Pods-WhiteHouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteHouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-WhiteHouse/Pods-WhiteHouse.release.xcconfig"; sourceTree = "<group>"; };
+		B977305B1895D91CF97DECA5 /* Pods_WhiteHouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhiteHouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C34787991A68076400E0E293 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		C347879B1A68428100E0E293 /* Default-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait.png"; sourceTree = "<group>"; };
 		C347879C1A68428100E0E293 /* Default-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape.png"; sourceTree = "<group>"; };
@@ -232,6 +233,7 @@
 		C34E8B6B1A5C9CE50036AE2E /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		C34E8B6C1A5C9CE50036AE2E /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
 		C3EDE33C1A8E497D00480E2C /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CD297CB64D223DE411B2928E /* Pods-WhiteHouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhiteHouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WhiteHouse/Pods-WhiteHouse.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -250,6 +252,7 @@
 				49ACD5B21A168AAA0059A0E1 /* libGoogleAnalyticsServices.a in Frameworks */,
 				49EE8D9819F1458F005F4DA0 /* libxml2.dylib in Frameworks */,
 				23C93E94103EF01D53FDDA45 /* libPods.a in Frameworks */,
+				9B1EA94337F535BE8DAE784E /* Pods_WhiteHouse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,8 +269,8 @@
 		11C59468EA8E68F83E38C646 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2CC9B548365F132DEB7BB131 /* Pods.debug.xcconfig */,
-				4124134FDE4E7CA9E775BA8F /* Pods.release.xcconfig */,
+				CD297CB64D223DE411B2928E /* Pods-WhiteHouse.debug.xcconfig */,
+				90794CA6651F9314F0A59AE1 /* Pods-WhiteHouse.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				49EE8D9919F14595005F4DA0 /* libz.dylib */,
 				49EE8D9719F1458F005F4DA0 /* libxml2.dylib */,
 				83A3EEA3C06E8EFCFD8DD25E /* libPods.a */,
+				B977305B1895D91CF97DECA5 /* Pods_WhiteHouse.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -294,38 +298,38 @@
 		496889D219E5B14B00A6833A /* images */ = {
 			isa = PBXGroup;
 			children = (
-				C347879B1A68428100E0E293 /* Default-Portrait.png */,
+				C34787991A68076400E0E293 /* Default-568h@2x.png */,
 				C347879C1A68428100E0E293 /* Default-Landscape.png */,
 				C347879D1A68428100E0E293 /* Default-Landscape@2x.png */,
+				C347879B1A68428100E0E293 /* Default-Portrait.png */,
 				C347879E1A68428100E0E293 /* Default-Portrait@2x.png */,
-				C34787991A68076400E0E293 /* Default-568h@2x.png */,
-				49F480581A65F4C800F0AEA7 /* WH_logo_3D_CMYK.png */,
-				C34E8B6B1A5C9CE50036AE2E /* play@2x.png */,
-				C34E8B6C1A5C9CE50036AE2E /* play.png */,
-				494683AD1A43050000353419 /* wh-nav-menu.png */,
-				494683A91A406D8500353419 /* favorites-60.png */,
-				4974FA021A488CAD00F55570 /* live-txt.png */,
-				4974FA001A488C9800F55570 /* favorites-txt.png */,
-				494683911A3B83C500353419 /* seal-bg.png */,
-				4946838F1A3B83AF00353419 /* loading-bg.png */,
-				49CCCBD51A2E3E1E0074EE6F /* WHITEHOUSE-MENU-bg.png */,
 				49ABB89819FFEC3200D8EFA8 /* Default.png */,
 				49CCCBDB1A30E8BF0074EE6F /* Default@2x.png */,
+				49CCCBD51A2E3E1E0074EE6F /* WHITEHOUSE-MENU-bg.png */,
+				49F480581A65F4C800F0AEA7 /* WH_logo_3D_CMYK.png */,
+				494683A91A406D8500353419 /* favorites-60.png */,
+				4974FA001A488C9800F55570 /* favorites-txt.png */,
+				4974FA021A488CAD00F55570 /* live-txt.png */,
+				4946838F1A3B83AF00353419 /* loading-bg.png */,
 				49ABB89419FFC42900D8EFA8 /* loading.png */,
-				49EE8D4C19EFDF16005F4DA0 /* photo-frame.png */,
 				496889D019E5B14700A6833A /* menu.png */,
+				49EE8D4C19EFDF16005F4DA0 /* photo-frame.png */,
+				C34E8B6C1A5C9CE50036AE2E /* play.png */,
+				C34E8B6B1A5C9CE50036AE2E /* play@2x.png */,
+				494683911A3B83C500353419 /* seal-bg.png */,
+				494683AD1A43050000353419 /* wh-nav-menu.png */,
 			);
-			name = images;
+			path = images;
 			sourceTree = "<group>";
 		};
 		499C9BDA19E5ADF60054E900 = {
 			isa = PBXGroup;
 			children = (
-				499C9BE519E5ADF60054E900 /* WhiteHouse */,
-				499C9BFF19E5ADF60054E900 /* WhiteHouseTests */,
-				499C9BE419E5ADF60054E900 /* Products */,
 				1A312FA1CEB8337733EFA11C /* Frameworks */,
 				11C59468EA8E68F83E38C646 /* Pods */,
+				499C9BE419E5ADF60054E900 /* Products */,
+				499C9BE519E5ADF60054E900 /* WhiteHouse */,
+				499C9BFF19E5ADF60054E900 /* WhiteHouseTests */,
 			);
 			sourceTree = "<group>";
 		};
@@ -341,33 +345,33 @@
 		499C9BE519E5ADF60054E900 /* WhiteHouse */ = {
 			isa = PBXGroup;
 			children = (
-				C3EDE33C1A8E497D00480E2C /* Constants.h */,
+				49EE8DAE19F1ACA2005F4DA0 /* CustomCells */,
+				49EE8DAF19F1ACCF005F4DA0 /* ModelData */,
+				499C9BE619E5ADF60054E900 /* Supporting Files */,
 				499C9BEA19E5ADF60054E900 /* AppDelegate.h */,
 				499C9BEB19E5ADF60054E900 /* AppDelegate.m */,
-				499C9BF019E5ADF60054E900 /* Main.storyboard */,
-				49CCCBCD1A252E1B0074EE6F /* PhotoViewController.h */,
-				49CCCBCE1A252E1B0074EE6F /* PhotoViewController.m */,
-				496889F619ED408200A6833A /* DetailViewController.h */,
-				496889F719ED408200A6833A /* DetailViewController.m */,
 				496889E419E6A60F00A6833A /* BriefingRoomViewController.h */,
 				496889E519E6A60F00A6833A /* BriefingRoomViewController.m */,
-				496889D619E5B6BA00A6833A /* MainViewController.h */,
-				496889D719E5B6BA00A6833A /* MainViewController.m */,
-				496889DC19E5B9F200A6833A /* SidebarViewController.h */,
-				496889DD19E5B9F200A6833A /* SidebarViewController.m */,
-				4984B54D1A0BA9400065D1F9 /* WebViewController.h */,
-				4984B54E1A0BA9400065D1F9 /* WebViewController.m */,
-				496889ED19E86E9C00A6833A /* LiveViewController.h */,
-				496889EE19E86E9C00A6833A /* LiveViewController.m */,
-				496889F319E881F700A6833A /* VideoViewController.h */,
-				496889F419E881F700A6833A /* VideoViewController.m */,
+				C3EDE33C1A8E497D00480E2C /* Constants.h */,
+				496889F619ED408200A6833A /* DetailViewController.h */,
+				496889F719ED408200A6833A /* DetailViewController.m */,
 				49A395EC19F7C095001463BA /* FavoritesViewController.h */,
 				49A395ED19F7C095001463BA /* FavoritesViewController.m */,
 				499C9BF319E5ADF60054E900 /* Images.xcassets */,
 				499C9BF519E5ADF60054E900 /* LaunchScreen.xib */,
-				49EE8DAF19F1ACCF005F4DA0 /* ModelData */,
-				49EE8DAE19F1ACA2005F4DA0 /* CustomCells */,
-				499C9BE619E5ADF60054E900 /* Supporting Files */,
+				496889ED19E86E9C00A6833A /* LiveViewController.h */,
+				496889EE19E86E9C00A6833A /* LiveViewController.m */,
+				499C9BF019E5ADF60054E900 /* Main.storyboard */,
+				496889D619E5B6BA00A6833A /* MainViewController.h */,
+				496889D719E5B6BA00A6833A /* MainViewController.m */,
+				49CCCBCD1A252E1B0074EE6F /* PhotoViewController.h */,
+				49CCCBCE1A252E1B0074EE6F /* PhotoViewController.m */,
+				496889DC19E5B9F200A6833A /* SidebarViewController.h */,
+				496889DD19E5B9F200A6833A /* SidebarViewController.m */,
+				496889F319E881F700A6833A /* VideoViewController.h */,
+				496889F419E881F700A6833A /* VideoViewController.m */,
+				4984B54D1A0BA9400065D1F9 /* WebViewController.h */,
+				4984B54E1A0BA9400065D1F9 /* WebViewController.m */,
 			);
 			path = WhiteHouse;
 			sourceTree = "<group>";
@@ -375,31 +379,31 @@
 		499C9BE619E5ADF60054E900 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				49EE8D5A19F015F3005F4DA0 /* AFNetworking */,
+				49ACD5A21A1650960059A0E1 /* GoogleAnalytics */,
+				49EE8D7719F01704005F4DA0 /* UIKit+AFNetworking */,
+				49ACD5C81A1A8C920059A0E1 /* html */,
+				496889D219E5B14B00A6833A /* images */,
 				49ACD5D81A1E8E060059A0E1 /* ActivityViewCustomActivity.h */,
 				49ACD5D91A1E8E060059A0E1 /* ActivityViewCustomActivity.m */,
-				49ACD5C81A1A8C920059A0E1 /* html */,
-				49ACD5A21A1650960059A0E1 /* GoogleAnalytics */,
 				497261A819FA9D860012AE8A /* DOMParser.h */,
 				497261A919FA9D860012AE8A /* DOMParser.m */,
-				49EE8D7719F01704005F4DA0 /* UIKit+AFNetworking */,
-				49EE8D5A19F015F3005F4DA0 /* AFNetworking */,
+				499C9BE719E5ADF60054E900 /* Info.plist */,
 				49EE8D9419F1450F005F4DA0 /* RXMLElement.h */,
 				49EE8D9519F1450F005F4DA0 /* RXMLElement.m */,
 				496889EA19E6B14100A6833A /* SWRevealViewController.h */,
 				496889EB19E6B14100A6833A /* SWRevealViewController.m */,
-				496889D219E5B14B00A6833A /* images */,
-				499C9BE719E5ADF60054E900 /* Info.plist */,
-				499C9BE819E5ADF60054E900 /* main.m */,
 				C34CAE6B1AA4B7F900F4FC7F /* feeds.json */,
+				499C9BE819E5ADF60054E900 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		499C9BFF19E5ADF60054E900 /* WhiteHouseTests */ = {
 			isa = PBXGroup;
 			children = (
-				499C9C0219E5ADF60054E900 /* WhiteHouseTests.m */,
 				499C9C0019E5ADF60054E900 /* Supporting Files */,
+				499C9C0219E5ADF60054E900 /* WhiteHouseTests.m */,
 			);
 			path = WhiteHouseTests;
 			sourceTree = "<group>";
@@ -409,13 +413,12 @@
 			children = (
 				499C9C0119E5ADF60054E900 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		49ACD5A21A1650960059A0E1 /* GoogleAnalytics */ = {
 			isa = PBXGroup;
 			children = (
-				49ACD5B11A168AAA0059A0E1 /* libGoogleAnalyticsServices.a */,
 				49ACD5A31A1650A60059A0E1 /* GAI.h */,
 				49ACD5A41A1650A60059A0E1 /* GAIDictionaryBuilder.h */,
 				49ACD5A51A1650A60059A0E1 /* GAIEcommerceFields.h */,
@@ -426,8 +429,9 @@
 				49ACD5AA1A1650A60059A0E1 /* GAILogger.h */,
 				49ACD5AB1A1650A60059A0E1 /* GAITrackedViewController.h */,
 				49ACD5AC1A1650A60059A0E1 /* GAITracker.h */,
+				49ACD5B11A168AAA0059A0E1 /* libGoogleAnalyticsServices.a */,
 			);
-			name = GoogleAnalytics;
+			path = GoogleAnalytics;
 			sourceTree = "<group>";
 		};
 		49ACD5C81A1A8C920059A0E1 /* html */ = {
@@ -452,9 +456,9 @@
 				49EE8D5E19F015F3005F4DA0 /* AFHTTPRequestOperationManager.m */,
 				49EE8D5F19F015F3005F4DA0 /* AFHTTPSessionManager.h */,
 				49EE8D6019F015F3005F4DA0 /* AFHTTPSessionManager.m */,
-				49EE8D6119F015F3005F4DA0 /* AFNetworking.h */,
 				49EE8D6219F015F3005F4DA0 /* AFNetworkReachabilityManager.h */,
 				49EE8D6319F015F3005F4DA0 /* AFNetworkReachabilityManager.m */,
+				49EE8D6119F015F3005F4DA0 /* AFNetworking.h */,
 				49EE8D6419F015F3005F4DA0 /* AFSecurityPolicy.h */,
 				49EE8D6519F015F3005F4DA0 /* AFSecurityPolicy.m */,
 				49EE8D6619F015F3005F4DA0 /* AFURLConnectionOperation.h */,
@@ -496,12 +500,12 @@
 		49EE8DAE19F1ACA2005F4DA0 /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
-				49B01C141A09246B00264FDC /* PostTableCell.h */,
-				49B01C151A09246B00264FDC /* PostTableCell.m */,
 				49B01C111A091E3200264FDC /* PostCollectionCell.h */,
 				49B01C121A091E3200264FDC /* PostCollectionCell.m */,
+				49B01C141A09246B00264FDC /* PostTableCell.h */,
+				49B01C151A09246B00264FDC /* PostTableCell.m */,
 			);
-			name = CustomCells;
+			path = CustomCells;
 			sourceTree = "<group>";
 		};
 		49EE8DAF19F1ACCF005F4DA0 /* ModelData */ = {
@@ -512,7 +516,7 @@
 				4946838C1A3256C600353419 /* WHFeedItem.h */,
 				4946838D1A3256C600353419 /* WHFeedItem.m */,
 			);
-			name = ModelData;
+			path = ModelData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -522,12 +526,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 499C9C0619E5ADF60054E900 /* Build configuration list for PBXNativeTarget "WhiteHouse" */;
 			buildPhases = (
-				E8F23ED4390261DF5F2A3937 /* Check Pods Manifest.lock */,
+				E8F23ED4390261DF5F2A3937 /* [CP] Check Pods Manifest.lock */,
 				499C9BDF19E5ADF60054E900 /* Sources */,
 				499C9BE019E5ADF60054E900 /* Frameworks */,
 				499C9BE119E5ADF60054E900 /* Resources */,
-				6BB66B14181E91C69CA82C8E /* Copy Pods Resources */,
+				6BB66B14181E91C69CA82C8E /* [CP] Copy Pods Resources */,
 				DED2789FF08695253E3DBDB0 /* Upload Bugsnag dSYM */,
+				7D4895139AB93C1B5611003B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -647,19 +652,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6BB66B14181E91C69CA82C8E /* Copy Pods Resources */ = {
+		6BB66B14181E91C69CA82C8E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhiteHouse/Pods-WhiteHouse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D4895139AB93C1B5611003B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WhiteHouse/Pods-WhiteHouse-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DED2789FF08695253E3DBDB0 /* Upload Bugsnag dSYM */ = {
@@ -677,19 +697,19 @@
 			shellScript = "\nif ENV[\"DEBUG_INFORMATION_FORMAT\"] != \"dwarf-with-dsym\" or ENV[\"PLATFORM_NAME\"] == \"iphonesimulator\"\n  exit\nend\n\nfork do\n  Process.setsid\n  STDIN.reopen(\"/dev/null\")\n  STDOUT.reopen(\"/dev/null\", \"a\")\n  STDERR.reopen(\"/dev/null\", \"a\")\n\n  require 'shellwords'\n\n  Dir[\"#{ENV[\"DWARF_DSYM_FOLDER_PATH\"]}/#{ENV[\"DWARF_DSYM_FILE_NAME\"]}/Contents/Resources/DWARF/*\"].each do |dsym|\n    system(\"curl -F dsym=@#{Shellwords.escape(dsym)} -F projectRoot=#{Shellwords.escape(ENV[\"PROJECT_DIR\"])} https://upload.bugsnag.com/\")\n  end\nend\n";
 			showEnvVarsInLog = 0;
 		};
-		E8F23ED4390261DF5F2A3937 /* Check Pods Manifest.lock */ = {
+		E8F23ED4390261DF5F2A3937 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -763,6 +783,7 @@
 				499C9BF119E5ADF60054E900 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		499C9BF519E5ADF60054E900 /* LaunchScreen.xib */ = {
@@ -771,6 +792,7 @@
 				499C9BF619E5ADF60054E900 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -861,7 +883,7 @@
 		};
 		499C9C0719E5ADF60054E900 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2CC9B548365F132DEB7BB131 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = CD297CB64D223DE411B2928E /* Pods-WhiteHouse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobomo, LLC";
@@ -871,12 +893,11 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(SDK_DIR)\"/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = WhiteHouse/Info.plist;
+				INFOPLIST_FILE = "WhiteHouse/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/WhiteHouse/TestFlightSDK3.0.2",
 					"$(PROJECT_DIR)/WhiteHouse",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -886,7 +907,7 @@
 		};
 		499C9C0819E5ADF60054E900 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4124134FDE4E7CA9E775BA8F /* Pods.release.xcconfig */;
+			baseConfigurationReference = 90794CA6651F9314F0A59AE1 /* Pods-WhiteHouse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Mobomo, LLC";
@@ -896,12 +917,11 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"\"$(SDK_DIR)\"/usr/include/libxml2",
 				);
-				INFOPLIST_FILE = WhiteHouse/Info.plist;
+				INFOPLIST_FILE = "WhiteHouse/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/WhiteHouse/TestFlightSDK3.0.2",
 					"$(PROJECT_DIR)/WhiteHouse",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -922,7 +942,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = WhiteHouseTests/Info.plist;
+				INFOPLIST_FILE = "WhiteHouseTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
@@ -939,7 +959,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = WhiteHouseTests/Info.plist;
+				INFOPLIST_FILE = "WhiteHouseTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
